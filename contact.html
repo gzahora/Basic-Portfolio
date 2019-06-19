@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="us-eng">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Greg Zahora</h1>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+    </header>
+
+    <main>
+
+        <div class="container">
+            <h2>Contact</h2>
+            
+            <form action="contact.php">
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Casey" required>
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Doe" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="abcd123@email.com" required>
+
+                <label for="phnmbr">Phone Number</label>
+                <input type="tel" id="phnnmbr" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="555-555-5555" required>
+
+                <label for="msg">Message</label>
+                <textarea id="msg" name="message" placeholder="Write message here" style="height:200px" required></textarea>
+
+                <input type="Submit" value="Submit"> 
+
+            </form>
+
+            
+
+        </div>
+       
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
+
+<!-- <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div> -->

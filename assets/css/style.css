@@ -1,0 +1,13 @@
+.ayy {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.prtimg {
+    position: absolute;
+    top: 90%;
+    left: 40%;
+    translate: (-90%, -40%);
+    color: white;
+}
