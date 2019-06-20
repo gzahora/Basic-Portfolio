@@ -70,6 +70,11 @@ h2 {
     float: left;
 }
 
+.thumbnail {      
+    width: 200px;
+    height: 200px;
+}
+
 .imgdesc {
     padding: 15px;
     text-align: center;
